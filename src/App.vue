@@ -1,12 +1,14 @@
 <template>
   <div id="app">
-    <h1>拉勾教育</h1>
     <router-view/>
   </div>
 </template>
 
-<style lang="scss">
-div {
-  background-color: $success-color;
+<script>
+export default {
+  name: 'App'
 }
+</script>
+
+<style lang="scss">
 </style>

@@ -15,11 +15,23 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'home'
-        // component: Home,
+        name: 'home',
+        component: () => import(/* webpackChunName: 'user' */'@/views/user/index')
       },
       {
-        path: '/'
+        path: '/role',
+        name: 'role',
+        component: () => import(/* webpackChunName: 'role' */'@/views/role/index')
+      },
+      {
+        path: '/user',
+        name: 'user',
+        component: () => import(/* webpackChunName: 'user' */'@/views/user/index')
+      },
+      {
+        path: '/course',
+        name: 'course',
+        component: () => import(/* webpackChunName: 'user' */'@/views/course/index')
       }
     ]
   },
