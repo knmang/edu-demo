@@ -32,8 +32,8 @@
             <i class="el-icon-menu"></i>
             <span>广告管理</span>
           </template>
-            <el-menu-item index="/role"><i class="el-icon-setting"></i>广告列表</el-menu-item>
-            <el-menu-item index="/meun"><i class="el-icon-setting"></i>广告位列表</el-menu-item>
+            <el-menu-item index="/advertising"><i class="el-icon-setting"></i>广告列表</el-menu-item>
+            <el-menu-item index="/adPosition"><i class="el-icon-setting"></i>广告位列表</el-menu-item>
         </el-submenu>
       </el-menu>
     </el-col>
